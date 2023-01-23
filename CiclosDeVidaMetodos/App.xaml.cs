@@ -33,7 +33,6 @@ public partial class App : Application
     private void Window_Stopped(object sender, EventArgs e)
     {
         System.Diagnostics.Debug.WriteLine("Se puso stop-----------------");
-        DisplayAlert("Stop", "Se puso en estop", "OK");
     }
     private void Window_Deactivated(object sender, EventArgs e)
     {
